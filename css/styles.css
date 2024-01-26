@@ -25,10 +25,6 @@ ul {
   list-style-type: none;
   margin: 0;
   padding-left: 0;
-
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; */
 }
 
 img {
@@ -53,10 +49,13 @@ section {
   padding-right: 15px;
 }
 
+.header-body {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
   width: 1158px;
 }
 
@@ -83,21 +82,20 @@ section {
   flex-grow: 1;
   margin-right: 317px;
   justify-content: space-between;
-  gap: 40px;
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
 .header-menu-list {
   display: flex;
+  gap: 40px;
 }
 
 .header-menu-links {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 24px 0;
 }
 
 .links-menu {
@@ -166,6 +164,8 @@ section {
   background-color: #404bbf;
 }
 
+/* Second section */
+
 .hidden-header {
   position: absolute;
   width: 1px;
@@ -185,8 +185,10 @@ section {
 }
 
 .feature {
-  max-width: calc(100% - 24px) / 4;
+  max-width: calc(100% - 72px) / 4;
 }
+
+/* Second section */
 
 .strategy-header {
   font-weight: 500;
@@ -195,7 +197,7 @@ section {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .strategy-paragraph {
@@ -204,6 +206,8 @@ section {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* Third section */
 
 .third-section {
   background-color: #f4f4fd;
@@ -216,7 +220,7 @@ section {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .our-team {
@@ -241,18 +245,38 @@ section {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
+.our-team-container {
+  padding: 32px 0;
+}
+
+.team-header {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.team-paragraph {
+  text-align: center;
+}
+
+/* Fourth section */
+
+.our-portfolio-header {
+  margin-bottom: 72px;
+  text-align: center;
+}
+
 .portfolio-list {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-list-item {
   background: #fff;
   border: 1px solid #e7e9fc;
   display: flex;
-  max-width: calc(100% - 24px) / 6;
+  max-width: calc(100% - 48px) / 3;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 48px;
