@@ -190,7 +190,7 @@ section {
 }
 
 .feature {
-  max-width: calc(1156px - 24px) / 4;
+  max-width: calc(100% - 24px) / 4;
 }
 
 .strategy-header {
@@ -257,7 +257,7 @@ section {
   background: #fff;
   border: 1px solid #e7e9fc;
   display: flex;
-  width: calc(100% - 24px) / 6;
+  max-width: calc(100% - 24px) / 6;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 48px;
