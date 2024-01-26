@@ -56,6 +56,8 @@ section {
 .header-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
+  width: 1158px;
 }
 
 .icon-title {
@@ -81,13 +83,13 @@ section {
   flex-grow: 1;
   margin-right: 317px;
   justify-content: space-between;
+  gap: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .header-menu-list {
   display: flex;
-  gap: 40px;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 
 .header-menu-links {
@@ -129,7 +131,7 @@ section {
 
 .first-section {
   background-color: #2e2f42;
-  padding-bottom: 248px;
+  padding: 188px 0;
 }
 
 .first-header {
@@ -138,11 +140,7 @@ section {
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
-  width: 496px;
-  padding-top: 188px;
-  margin-left: 316px;
-  margin-right: 316px;
-  margin-bottom: 48px;
+  max-width: 496px;
 }
 
 .order-styled {
@@ -154,16 +152,13 @@ section {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  width: 169px;
-  display: flex;
+  min-width: 169px;
+  display: block;
+  height: 56px;
   padding: 16px 32px;
+  border: none;
   gap: 10px;
   border-radius: 4px;
-  white-space: nowrap;
-  text-align: center;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  margin-left: 479px;
-  margin-right: 479px;
 }
 
 .order-styled:hover,
