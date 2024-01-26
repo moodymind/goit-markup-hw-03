@@ -39,6 +39,11 @@ address {
   font-style: normal;
 }
 
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /* Where to find default container values in figma? */
 
 .container {
@@ -181,8 +186,6 @@ address {
 
 .list-of-features {
   display: flex;
-  padding-top: 120px;
-  padding-bottom: 120px;
   gap: 24px;
 }
 
@@ -218,7 +221,6 @@ address {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-top: 120px;
   padding-bottom: 72px;
 }
 
@@ -227,7 +229,6 @@ address {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .our-team-list {
@@ -249,7 +250,6 @@ address {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 120px;
   flex-wrap: wrap;
 }
 
