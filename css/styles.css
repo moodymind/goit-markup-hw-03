@@ -43,7 +43,7 @@ section {
 /* Where to find default container values in figma? */
 
 .container {
-  width: 1156px;
+  max-width: 1156px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -89,6 +89,7 @@ section {
 .header-menu-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .header-menu-links {
@@ -133,12 +134,14 @@ section {
 }
 
 .first-header {
+  text-align: center;
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  text-align: center;
-  max-width: 496px;
+  margin: 0 auto;
+  padding-bottom: 48px;
 }
 
 .order-styled {
@@ -157,6 +160,7 @@ section {
   border: none;
   gap: 10px;
   border-radius: 4px;
+  margin: 0 auto;
 }
 
 .order-styled:hover,
@@ -185,7 +189,7 @@ section {
 }
 
 .feature {
-  max-width: calc(100% - 72px) / 4;
+  max-width: calc((100% - 72px) / 4);
 }
 
 /* Second section */
@@ -232,7 +236,7 @@ section {
 
 .our-team-list {
   background-color: #ffffff;
-  max-width: calc(100% - 24px) / 4;
+  width: calc((100% - 24px) / 4);
   display: inline-flex;
   padding-bottom: 32px;
   flex-direction: column;
@@ -274,33 +278,36 @@ section {
 
 .portfolio-list-item {
   background: #fff;
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio-item-container {
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  display: flex;
-  max-width: calc(100% - 48px) / 3;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 48px;
-  padding-bottom: 32px;
-  gap: 8px;
-  flex-shrink: 0;
+  border-top: none;
 }
 
-.strategy-header {
-  margin-left: 16px;
+.portfolio-header {
+  margin-bottom: 8px;
 }
 
-.strategy-paragraph {
-  margin-left: 16px;
-}
+/* Footer */
 
 .footer {
   background-color: #2e2f42;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 156px;
+  padding: 100px 0;
+}
+
+.icon-footer {
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .studio-footer {
@@ -312,5 +319,4 @@ section {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
-  padding-top: 16px;
 }
