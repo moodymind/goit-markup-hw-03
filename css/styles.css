@@ -43,7 +43,7 @@ section {
 /* Where to find default container values in figma? */
 
 .container {
-  max-width: 1156px;
+  width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -275,7 +275,7 @@ section {
   row-gap: 48px;
 }
 
-.portfolio-list-item {
+.portfolio-item {
   width: calc((100% - 48px) / 3);
 }
 
